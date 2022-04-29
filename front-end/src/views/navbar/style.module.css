@@ -1,0 +1,19 @@
+.nav_bar{
+    display: flex;
+    padding: 15px;
+    background-color: rgba(13, 114, 230, 0.466);
+    height: 7vh;
+    justify-content: space-between;
+}
+
+.link_list{
+    display: flex;
+}
+.link_list li{
+    list-style: none;
+    margin-left: 2vw;
+    font-size: 20px;
+}
+.link_list li a{
+    text-decoration: none;
+}

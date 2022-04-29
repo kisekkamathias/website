@@ -1,0 +1,13 @@
+.casing{
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    height: 92vh;
+    background-color: #7affff;
+    overflow-y: scroll;
+    border-radius: 20px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+}

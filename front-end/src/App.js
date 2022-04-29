@@ -1,10 +1,12 @@
 import './App.css';
-import DesignPage from './pages/designPage/designPage';
+// import HomePageNavBar from './views/navbar/navBar';
+import DesignPage from './views/designPage/designPage';
 
 function App() {
   return (
     <div className="App">
       <DesignPage/>
+     {/* <HomePageNavBar/> */}
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.veiw_port{
+    background-color: #000;
+    height: 20px;
+    color: #fff;
+}
+
+.designPageBtn{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #7affff;
+    font-size: 40px;
+    display: flex;
+    padding: 8px 0 0 16px;
+    transition: 0.5s;
+}
+.createTxt{
+    font-size: 18px;
+    margin: 13px;
+    display: none;
+}
+.designPageBtn:hover .createTxt{
+    display: block;
+    overflow: hidden;
+}
+.designPageBtn:hover{
+    background-color: #24cece;
+    position: absolute;
+    width: 150px;
+    transition: 0.5s;
+}
