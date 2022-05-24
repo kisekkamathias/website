@@ -1,13 +1,23 @@
 .casing{
+    position: fixed;
     right: 5px;
     top: 5px;
     bottom: 5px;
-    height: 92vh;
+    height: 98vh;
     background-color: #7affff;
-    overflow-y: scroll;
+    overflow: hidden;
     border-radius: 20px;
-    width: 0;
-    position: fixed;
-    z-index: 1;
     transition: 0.5s;
+    width: 40vw;
+    padding: 0;
+}
+.span{
+    width: 3vw;
+    height: 6vh;
+    margin: 5px;
+    background-color: #33fafa;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
 }
