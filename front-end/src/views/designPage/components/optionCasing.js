@@ -1,9 +1,12 @@
 import React from 'react'
-import optionCasingStyles from '../styles/optionCasingStyles.module.css'
+import '../styles/OptionCasing.css'
+import HideBtn from './HideBtn'
 
-const OptionCasing = () => {
+const OptionCasing = (props) => {
   return (
-    <div className={optionCasingStyles.options}>optionCasing</div>
+    <div className={props.show1? 'casing active' : 'casing'}>
+      <HideBtn hide={props.hide}/>
+    </div>
   )
 }
 

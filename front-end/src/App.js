@@ -1,6 +1,5 @@
-import React from 'react';
 import './App.css';
-import DesignPage from './views/designPage/designPage';
+import DesignPage from './views/designPage/DesignPage';
 
 const App = () => {
   return (

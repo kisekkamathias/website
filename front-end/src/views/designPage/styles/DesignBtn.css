@@ -1,10 +1,4 @@
-.veiw_port{
-    background-color: #000;
-    height: 20px;
-    color: #fff;
-}
-
-.designPageBtn{
+.create-btn{
     position: fixed;
     bottom: 40px;
     right: 40px;
@@ -17,20 +11,23 @@
     font-size: 40px;
     display: flex;
     padding: 8px 0 0 16px;
-    transition: 0.5s;
+    transition: 0.7s;
+}
+.btn{
+    right: -100%;
 }
 .createTxt{
     font-size: 18px;
     margin: 13px;
     display: none;
 }
-.designPageBtn:hover .createTxt{
+.create-btn:hover .createTxt{
     display: block;
     overflow: hidden;
 }
-.designPageBtn:hover{
+.create-btn:hover{
     background-color: #24cece;
     position: absolute;
     width: 150px;
-    transition: 0.5s;
+    transition: 0.4s;
 }

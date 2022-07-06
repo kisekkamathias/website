@@ -8,7 +8,7 @@ const port = 9000
 
 app.set('view engine', 'ejs')
 
-app.get('/', (req, res) => {res.status(200).render("op.ejs")})
+app.get('/', (req, res) => {res.status(200).send("hello js")})
 
 
 app.listen(port, () => console.log(`Listenig on port: ${port}`))

@@ -1,0 +1,16 @@
+.hide{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #11a0ff;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #62befc;
+}
+.hide:hover{
+    background-color: #00ffff;
+}
